@@ -20,10 +20,16 @@ For a descriptive analysis of these rates, we will look at the standardized rate
 <br/>
 <img width="2216" height="1041" alt="Age-Specific Suicide Rates From 2019-2023, 10 Years Age" src="https://github.com/user-attachments/assets/30702eef-2984-4c87-9a3b-e736ce42bc1a"/>
 <br/>
+<br/>
 **Observations**
 <br/>
-Here are the age-specific suicide rates by age demographics, sourced through the CDC WONDER. This data was found by dividing the cumulative deaths per demograpgic by their cumulative population, then multiplied by 100,000 for standardization. The reason age-specific rates are used is to standardize the rates by demographic in disregard for bigger or smaller populations. Due to the age range of 5-14 years having suppressed data that is too low & unreliable for observation, it has been omitted from the visualization, but is not to be deemed as inappropriate for the overall observation and still holds significance. Ages 45 - 54 lead the demographic as the highest, with an annual average rate of **22.4%**. 35-44 leads next with an annual rate of **20.9%**. The 25-34 year age demographic leads next with a rate of **19.4%** and the 85+ demographic being just .1 lower at **19.3%**. 55-64 Year olds follow after with a rate of **18.6%**, 75-84 Year olds come in at **17.3%** and finally, both 65-74 year old and 15-24 year olds sharing the same rate of 14.6%
+Here are the age-specific suicide rates by age demographics, sourced through the CDC WONDER. This data was found by dividing the cumulative deaths per demograpgic by their cumulative population, then multiplied by 100,000 for standardization. The reason age-specific rates are used is to standardize the rates by demographic in disregard for bigger or smaller populations. Due to the age range of 5-14 years having suppressed data that is too low & unreliable for observation, it has been omitted from the visualization, but is not to be deemed as inappropriate for the overall observation and still holds significance. By comparing our highest and lowest demographics, there is a **staggering 53.42%** increase in mortality rates from 15-24 year olds to 45-54 years old, an immense percentage that leaves more room for research or gathered data to investigate. <br/>
 
+**Race Demographics**
+<img width="2218" height="912" alt="2019-2023 Age-Adjusted Rate By Race" src="https://github.com/user-attachments/assets/20812f78-6cf7-46a5-ae02-9bd4370bc79c"/>
+<br/>
+The white demographic leads with 19.6%, with the asian demographic being marginally higher at 7.8% and the black demographic being the lowest at 7.6%. Between the highest and lowest demographics here, there is a **157.89%** increase in the white demographic over the black demographic. Due to data constrictions, data for more than one race and the native american population have been omitted, but are not to be deemed insignificant.
+<br/>
 # Factor 1: Poverty
 Collection of poverty data was done through the United States Census Bureau, using Microsoft Excel for aggregation via Pivot Tables & Visualization.  
 
