@@ -43,7 +43,7 @@ Here, you can see both the poverty rates and age adjusted suicide rates per 100k
 <br/>
 <img width="384" height="223" alt="Suicide   Poverty Correlation" src="https://github.com/user-attachments/assets/f4a3a548-0449-4e1a-b723-b086bd11fd15" />
 <br/>
-By running a correlation between poverty rates (independent variable) and suicide rates (dependent variable) using the `=CORR` function in Excel & charting options, we can see that we have an r-squared of ~35% and an r of 59%, suggesting a moderately strong positive correlation between the two variables. As for interpretation, this means that in areas where poverty is higher, suicide rates tend to be higher aswell. With our r-squared of ~35%, it means that ~35% of the changes in the poverty rates fits with the changes in the suicide rates with the other 65% not being explained by our model.
+By running a correlation between poverty rates (independent variable) and suicide rates (dependent variable) using the `=CORREL` function in Excel & charting options, we can see that we have an r-squared of **~35%** and an r of **59%**, suggesting a **moderately strong** positive correlation between the two variables. As for interpretation, this means that in areas where poverty is higher, suicide rates tend to be higher aswell. With our r-squared of ~35%, it means that ~35% of the changes in the poverty rates fits with the changes in the suicide rates with the other 65% not being explained by our model.
 <br/>
 # Factor 2: Graduation Rates
 Graduation Rates have been sourced from the National Center for Education Statistics
@@ -51,5 +51,35 @@ Graduation Rates have been sourced from the National Center for Education Statis
 <br/>
 <br/>
 **Observation**
+<br>
 Here, most of the results between the graduation rates and the suicide rates are the opposite; where the suicides increase, the graduation rates decrease, and vice versa. Again, 2020 is a notable year, with suicide being at its lowest rate and graduation rates being at their highest. Overall, graduation rates are high throughout these years, which over 80% of students graduating. 
+<br/>
+<br/>
+**Correlations between variables**
+<br/>
+<img width="593" height="239" alt="Screenshot 2026-01-17 004136" src="https://github.com/user-attachments/assets/8cfa8d33-2608-479e-8bdf-49ad2c3a1094" />
+<br/>
+As seen from the scatterplot, there is a negative correlation between graduation rates and suicide, implying that areas with higher graduation rates tend to have lower suicide rates. With an r of **-35%**, this is a **weak** correlation, with only about **12%** of the changes in graduation rates fitting with the changes in our suicide rates. 
+# Factor 3: Child Abuse Rates
+Child Abuse Rates have been sourced from the Administration of Children and Families. It is to be noted that "child abuse" in this context is more generalized and the collective data include ages up to 18 years old, where in the United States 18 is legally considered an adult. 
+<br/>
+<img width="531" height="480" alt="Screenshot 2026-01-17 010440" src="https://github.com/user-attachments/assets/8063d7e0-74e1-4157-ad48-56a80f287f2e" />
+<br/><br>
+**Observation**
+<br/>
+The child abuse rates start high with 181 victims, a steady drop down to 138 in 2021, and a rise again 193. From 2018 to 2023, there was a **6.63%** increase in child abuse victims. From the lowest (2021) to the highest (2023) points, there is a **55%** difference, or a **39.86%** increase.
+<br/>
+<br/>
+**Correlations between variables**
+<br/>
+<img width="532" height="239" alt="Screenshot 2026-01-17 011815" src="https://github.com/user-attachments/assets/243568a6-cacd-4cea-b9bd-71c0b450398c" />
+<br/>
+Here, child abuse frequency carries an r squared of ~36% with an r of 60%, indicating a fairly strong positive correlation between these two factors, and meaning that in areas where child abuse is more frequent, suicide rates are higher. With an r squared of 36%, 36% of the changes in child abuse fit the changes in suicide rate.
+# Final Factor: Traced Firearms (Gun Accessibility)
+Gun accessibility data sourced from the Bureau of Alcohol, Tobacco, Firearms, and Explosives. An additional note here is that while not all traced firearms are involved in suicide, traced firearms serve as a proxy for general gun accessibility, where most suicides by gun are fatal.
+<img width="531" height="478" alt="Screenshot 2026-01-17 014840" src="https://github.com/user-attachments/assets/50237392-9944-47ec-a7c6-3b88455fd3ac" />
+<br/>
+**Observation**
+<br/>
+Throughout the years 2019 to 2023, traced firearms have been steadily increasing, with a low in 2019 (about 229 firearms traced) to a highest in 2022 (about 348), witnessing a **51.97%** increase from 2019. In comparison to the age adjusted rates, they share a similar pattern of rising from 2019 to 2022 (besides 2020). Another thing to note is 2023, where traced firearms dropped while suicide rates stayed fixed.
 
