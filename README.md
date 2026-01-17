@@ -1,5 +1,11 @@
 # Overview
 A detailed project going over four socioeconomic factors, ranking their correlations to suicide in Louisiana over the years 2018 to 2023. Project goes over factors such as graduation rates, poverty rates, traced firearms, and child abuse as a proxy for firearm accessibility.
+
+# Questions
+With our data, the questions we aim to answer are:
+1. Out of all our factors, which ones have the strongest correlation to suicide in Louisiana?
+2. Which race has the highest suicide rate?
+3. Which demographics have the highest suicide rate?
 # Limitations
 Before going into the documentation. It is crucial to first look into the limitations of the analysis to account restraints to depth.
 Limitations included:
@@ -82,4 +88,34 @@ Gun accessibility data sourced from the Bureau of Alcohol, Tobacco, Firearms, an
 **Observation**
 <br/>
 Throughout the years 2019 to 2023, traced firearms have been steadily increasing, with a low in 2019 (about 229 firearms traced) to a highest in 2022 (about 348), witnessing a **51.97%** increase from 2019. In comparison to the age adjusted rates, they share a similar pattern of rising from 2019 to 2022 (besides 2020). Another thing to note is 2023, where traced firearms dropped while suicide rates stayed fixed.
+<br/>
+<br/>
+**Correlations between variables**
+<br/>
+<img width="532" height="241" alt="Screenshot 2026-01-17 014959" src="https://github.com/user-attachments/assets/2fb80b30-f6c2-454b-ab38-86dc7beb316f" />
+<br>
+By correlating traced firearm rates and suicide rates, we see our strongest correlation yet, a positive correlation with an r squared of about **46%** and an r of **68%**. What this is means is that in areas where firearms are more commonly traced, there are also more commonly suicides. As for our r squared of 45%, meaning almost half of the changes in the traced firearm variable fit with the changes in the suicide rate. This leaves a big room for further research, maybe to the parish or city level.
+<br/>
+**Ranking**
+Given the shown data and correlations, the top factors with the strongest correlations to suicide are:
+1. Firearm accessibility (Traced firearms)
+2. Child Abuse
+3. Poverty
+
+# Conclusive Storytelling
+Suicide is a deep topic that influences many families and communities around the globe. For Louisiana specifically, correlating factors such as firearm accessibility, child abuse, and poverty warrant further research in order to understand their relationship with mental health vulnerability and suicide. Through this data, it is suggested that poverty, childhood abuse, and other socioeconomic factors are associated with mental health vulnerability. Increased investigation into these factors could see a turn in the rate in the foreseeable future, as the data indicates that areas with higher economic hardship or childhood trauma are linked to mental health vulnerabilities.
+
+#Potential Solutions
+**For Poverty:**
+1. Promoting higher education
+2. Improved childhood nutrition
+
+**For Firearm Accessibility**
+1. Enforcing stricter gun laws
+2. Background checks
+3. Secure firearm storage
+4. Raising minimum age & purchase
+
+
+
 
