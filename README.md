@@ -5,7 +5,7 @@ A detailed project going over four socioeconomic factors, ranking their correlat
 With our data, the questions we aim to answer are:
 1. Out of all our factors, which ones have the strongest correlation to suicide in Louisiana?
 2. Which race has the highest suicide rate?
-3. Which demographics have the highest suicide rate?
+3. Which age demographics have the highest suicide rate?
 # Limitations
 Before going into the documentation. It is crucial to first look into the limitations of the analysis to account restraints to depth.
 Limitations included:
